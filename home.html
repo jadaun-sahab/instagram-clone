@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="shortcut icon" href="/image/logo.jpeg" type="image/x-icon">
+     <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="/cssfiles/home.css">
+     <link rel="stylesheet" href="/cssfiles/responsive.css">
+</head>
+
+<body>
+     <div id="mainbox">
+          <div id="navbar">
+               <h1>Instagram</h1>
+               <ul>
+                    <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span> </a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>Search</span> </a></li>
+                    <li><a href="#"><i class="fa-solid fa-compass"></i><span>Explore</span> </a></li>
+                    <li><a href="#"><i class="fa-solid fa-clapperboard"></i><span>Reels</span> </a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i><span>Messages</span></a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart"></i><span>Notification</span></a></li>
+                    <li><a href="#"><i class="fa-regular fa-square-plus"></i><span>Create</span></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i><span>Profile</span></a></li>
+               </ul>
+               <div id="nav2">
+                    <ul id="nav2ul">
+                         <ol><a href="#">Settings<i class="fa-solid fa-gear"></i></a></ol>
+                         <ol><a href="#">Saved<i class="fa-regular fa-bookmark"></i></a></ol>
+                         <ol><a href="#" onclick="theme()">Switch Appearance<i class="fa-solid fa-moon"></i></a></ol>
+                         <ol><a href="#">Your Activity<i class="fa-regular fa-clock"></i></a></ol>
+                         <ol><a href="#">Report a Problem<i class="fa-solid fa-bug"></i></a></ol>
+                         <ol><a href="#">Switch Acoount</a></ol>
+                         <ol><a href="#">Log Out</a></ol>
+                    </ul>
+                    <li><a href="#" onclick="menutoggle()"><i class="fa-solid fa-bars"></i>More</a></li>
+               </div>
+
+          </div>
+          <hr>
+          <div id="main">
+               <div id="story">
+                    <div class="story">
+                         <img src="/image/dp1.jpeg" alt="">
+                         <p>_Thor</p>
+                    </div>
+                    <div class="story">
+                         <img src="/image/dp2.jpeg" alt="">
+                         <p>joe__</p>
+                    </div>
+                    <div class="story">
+                         <img src="/image/dp3.jpeg" alt="">
+                         <p>nick_</p>
+                    </div>
+                    <div class="story">
+                         <img src="/image/dp4.jpeg" alt="">
+                         <p>ankush</p>
+                    </div>
+                    <div class="story">
+                         <img src="/image/dp5.jpeg" alt="">
+                         <p>venu</p>
+                    </div>
+                    <div class="story">
+                         <img src="/image/dp6.jpeg" alt="">
+                         <p>kapil</p>
+                    </div>
+               </div>
+          </div>
+          <div id="main2">
+               <div id="profile">
+                    <div class="pro">
+                         <img src="image/dp4.jpeg" alt="">
+                         <div>
+                              <h3>_jadaun_sahab__</h3>
+                              <p>vikas jadaun</p>
+                         </div>
+                    </div>
+                    <h4 onclick="switchopen()">Switch</h4>
+               </div>
+          </div>
+     </div>
+     <!-- ------------------switch------------------->
+     <div id="switch">
+          <div class="switch">
+               <span onclick="switchremove()">X</span>
+               <h1>Instagram</h1>
+               <div><input type="text" name="" id="use" placeholder="phone number, username or email"></div>
+               <div><input type="text" name="" id="pas" placeholder="Paasword"></div>
+               <div><input type="checkbox" name="" id="checkbox">Save Login Info</div>
+               <button class="btnswitchlogin">Log in</button>
+               <p><a href="#"></a>Forgot Paasword?</p>
+
+          </div>
+     </div>
+     <!-- ------------------switch------------------->
+</body>
+<script src="/jsfiles/index.js"></script>
+
+</html>

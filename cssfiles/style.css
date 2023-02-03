@@ -1,0 +1,151 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+#signup{
+     margin: 2rem auto;
+     display: block;
+     width: 50%;
+}
+.signup{
+     display: flex;
+}
+#signupchild1{
+     width: 80%;
+     display: flex;
+     margin: 5em auto 0 auto;
+}
+#image{
+     height: 700px;
+     background-color: rgb(0, 0, 0);
+     width: 80%;
+     display: flex;
+     margin: 0 auto;
+     border-radius: 30px;
+}
+#signupmain{
+     display: block;
+}
+#signupchild2{
+     height: 700px;
+     text-align: center;
+     width: 96%;
+     margin: 2rem auto;
+     display: block;
+     border: 1px solid rgb(226, 225, 225);
+}
+#signupchild3{
+     padding: 10px auto;
+     border: 1px solid rgb(226, 225, 225);
+}
+#signupchild3 h3{
+     padding: 10px auto;
+     text-align: center;
+    font-weight: 400;
+}
+#signupchild3 h3 a{
+     color: rgb(75, 190, 236);
+   text-decoration: none;
+}
+#signupchild4{
+     display: block;
+     text-align: center;
+}
+.signupchild4{
+     width: 60%;
+     margin: 0 auto;
+     display: flex;
+}
+.signupchild4 img{
+     margin: 0 5px;
+     width: 135px;
+}
+#signupchild2 h1{
+     font-size: 3rem;
+     font-family: cursive;
+}
+#signupchild2 p{
+     font-family: system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(122, 120, 120);
+    font-size: 1.2rem;
+}
+.btn1{
+     border-radius: 10px;
+     font-size: 1.3rem;
+     color: white;
+     text-align: center;
+     margin: 1rem auto;
+     width: 80%;
+     padding: 4px 10px;
+     display: block;
+     background-color: rgb(60, 137, 224);
+}
+.fa-square-facebook{
+     font-size: 1.2rem;
+     margin: 5px;
+     color: white;
+     background-color: rgba(255, 255, 255, 0);
+}
+form input{
+     padding: 13px 10px;
+     margin: 5px auto;
+     border-radius: 5px;
+     border: 1px solid rgb(210, 206, 206);
+     background-color: rgba(244, 243, 243, 0.611);
+     width: 80%;
+}
+#p2 p{
+     font-size: 14px;
+     width: 80%;
+     margin: 10px auto;
+}
+#p3 p{
+     font-size: 14px;
+     width:80%;
+     margin: 10px auto;
+}
+#p2 p a{
+    text-decoration: none;
+}
+#p3 p a{
+     text-decoration: none;
+}
+.signupbtn {
+     background-color: rgb(65, 178, 226);
+     color: white;
+     border: none;
+     width: 80%;
+     margin: 0 auto;
+     display: block;
+     padding: 10px;
+     border-radius: 10px;
+     font-weight: bold;
+     font-style: 17rem;
+}
+
+#foot{
+     display: flex;
+     width: 55%;
+     margin: 0 auto;
+}
+#foot2 p{
+     color: grey;
+     font-weight: 400;
+     text-align: center;
+}
+
+#foot li{
+list-style: none;
+}
+#foot li a{
+     font-size: .9rem;
+     color: grey;
+     font-weight: 400;
+     padding: 0 10px;
+     text-decoration: none;
+}

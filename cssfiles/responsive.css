@@ -1,0 +1,5 @@
+@media (max-width:1250px){
+     #navbar ul  li a span{
+          display: none;
+     }
+}
