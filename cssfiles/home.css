@@ -8,11 +8,13 @@
 :root {
      --primary-color: #ffffff;
      --secondry-color: #000000;
+     --third-color: #242323;
 }
 
 .dark-theme {
      --primary-color: #000000;
      --secondry-color: #ffffff;
+     --third-color: #ffffff;
 }
 
 #mainbox {
@@ -34,6 +36,10 @@
      margin: 2rem auto 3.5rem auto;
 }
 
+#navbar h2 {
+     display: none;
+}
+
 
 #navbar ul li {
      margin: 39px 10px;
@@ -53,89 +59,6 @@
      border-radius: 50%;
      width: 25px;
 }
-
-#main {
-     padding-top: 3em;
-     height: 10000px;
-     background-color: var(--secondry-color);
-     width: 100%;
-}
-
-#story {
-     margin-left: 29em;
-     display: flex;
-}
-
-.story {
-     color: var(--primary-color);
-     text-align: center;
-     margin: 10px;
-     display: block;
-}
-
-.story img {
-     border: 1px dashed rgb(255, 52, 255);
-     object-fit: fill;
-     border-radius: 50%;
-     height: 60px;
-     width: 60px;
-}
-
-#main2 {
-     padding-top: 3em;
-     height: 10000px;
-     background-color: var(--secondry-color);
-     width: 60%;
-}
-
-#profile {
-     margin: 1rem 13em 0 2em;
-     display: flex;
-     justify-content: space-between;
-}
-
-#profile h4 {
-     cursor: pointer;
-     font-weight: 400;
-     color: rgb(0, 130, 243);
-     margin: 18px 0 0 0;
-}
-
-.pro {
-     display: flex;
-}
-
-.pro img {
-     border: 1px dashed rgb(255, 67, 67);
-     width: 60px;
-     height: 60px;
-     border-radius: 50%;
-}
-
-.pro div {
-     color: var(--primary-color);
-     margin: .6rem 1rem;
-}
-
-.pro div p {
-     color: rgb(145, 142, 142);
-}
-
-.fa-square-plus,
-.fa-heart,
-.fa-facebook-messenger,
-.fa-clapperboard,
-.fa-compass,
-.fa-magnifying-glass,
-.fa-house,
-.fa-instagram {
-     font-size: 1.3rem;
-     color: var(--primary-color);
-     margin: 0 18px;
-}
-
-
-
 
 /* nav2----------------------------------- */
 #nav2 li {
@@ -195,6 +118,264 @@
      margin-right: 10px;
 }
 
+
+#main {
+     padding-top: 3em;
+     height: 10000px;
+     background-color: var(--secondry-color);
+     width: 100%;
+}
+
+#story {
+     margin-left: 31em;
+     display: flex;
+}
+
+.story {
+     color: var(--primary-color);
+     text-align: center;
+     margin: 10px 12px;
+     display: block;
+}
+
+.story img {
+     border: 1px dashed rgb(255, 52, 255);
+     object-fit: fill;
+     border-radius: 50%;
+     height: 63px;
+     width: 63px;
+}
+
+#main2 {
+     padding-top: 3em;
+     height: 10000px;
+     background-color: var(--secondry-color);
+     width: 60%;
+}
+
+/* <!-- ------------------card-------------------> */
+
+
+#cards {
+     width: 500px;
+     margin-left: 31em;
+}
+
+.card {
+     display: block;
+}
+
+.card-heading {
+     margin: 36px 0 16px 0;
+     width: 508px;
+     display: flex;
+}
+
+.card-heading img {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     margin: 1px 13px 1px 5px;
+}
+
+.cardusername {
+     width: 500px;
+     color: var(--primary-color);
+     display: block;
+}
+
+.cardusername h2 {
+     font-weight: 400;
+     font-size: 1.1rem;
+}
+
+.cardusername h3 {
+     font-size: 1rem;
+     font-weight: 400;
+}
+
+.card-heading-option h1 {
+     display: flex;
+     justify-content: flex-end;
+     color: var(--primary-color);
+     cursor: pointer;
+}
+
+.card-img {
+     width: 500px;
+}
+
+.card-img img {
+     border-radius: 4px;
+     width: 510px;
+}
+
+.card-likes {
+     display: flex;
+     width: 470px;
+}
+
+.card-likes .fa-heart,
+.fa-comment,
+.fa-share {
+     margin: 10px;
+     font-size: 1.7rem;
+     color: var(--primary-color);
+}
+
+.card-footer {
+     display: block;
+     color: var(--primary-color);
+}
+
+#comment {
+     color: var(--primary-color);
+     background-color: var(--secondry-color);
+     border: none;
+}
+
+#bookmark {
+     margin: 10px 0 10px 19rem;
+     font-size: 1.7rem;
+     color: var(--primary-color);
+}
+
+#moreopt {
+     width: 100%;
+     z-index: 9;
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     background-color: #00000092;
+}
+
+.moreopt {
+     top: 20%;
+     border-radius: 10px;
+     left: 37%;
+     width: 27%;
+     position: absolute;
+     text-align: center;
+     
+     background-color: var(--third-color);
+}
+hr{
+     border:1px solid rgba(247, 218, 218, 0.297);
+}
+.moreopt ul{
+     padding: 1rem 40px;
+}
+.moreopt ul a {
+     font-family: system-ui;
+     font-size: 1rem;
+     font-weight: 400;
+     text-decoration: none;
+     color: var(--primary-color);
+}
+
+
+/* <!-- ------------------card-------------------> */
+
+#profile {
+     margin: 1rem 13em 0 2em;
+     display: flex;
+     justify-content: space-between;
+     width: 58%;
+}
+#suggestionsprofile{
+     margin: .3rem 13em 0 2em;
+     display: flex;
+     justify-content: space-between;
+     width: 58%;
+}
+#suggestionsprofile img{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     border: none;
+}
+#profile h4 {
+     cursor: pointer;
+     font-weight: 400;
+     color: rgb(0, 130, 243);
+     margin: 18px 0 0 0;
+}
+#suggestionsprofile h4{
+     cursor: pointer;
+     font-weight: 400;
+     color: rgb(0, 130, 243);
+     margin: 18px 0 0 0;
+}
+
+.pro {
+    
+     display: flex;
+}
+
+.pro img {
+     border: 1px dashed rgb(255, 67, 67);
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+}
+#suggestionsprofile h3{
+     color: var(--primary-color);
+     font-weight: 300;
+     margin: 0;
+     font-size: 1rem;
+}
+#profilefooter{
+     display: flex;
+     width: 80%;
+     margin-left: 35px;
+}
+
+#profilefooter li a{
+     height: 5px;
+     margin: 0;
+     padding: 0 2px;
+     display: flex;
+     font-size: 14px;
+    color:grey;
+    text-decoration: none;
+}
+#profilefooter ul {
+     margin: 40px 0 0 0;
+}
+#profilefooter ul a{
+    color:grey;
+    text-decoration: none;
+}
+.pro div {
+     color: var(--primary-color);
+     margin: .6rem 1rem;
+}
+.pro div p {
+    color: var(--primary-color);
+    font-size: 13px;
+}
+.pro div p {
+     font-size: 17px;
+     color: rgb(145, 142, 142);
+}
+
+.fa-square-plus,
+.fa-heart,
+.fa-facebook-messenger,
+.fa-clapperboard,
+.fa-compass,
+.fa-magnifying-glass,
+.fa-house,
+.fa-instagram {
+     font-size: 1.3rem;
+     color: var(--primary-color);
+     margin: 0 18px;
+}
+
+
+
+
 /* <!-- ------------------switch-------------------> */
 
 #switch {
@@ -217,8 +398,9 @@
 }
 
 .switch {
+     box-shadow: 2px 2px 20px var(--primary-color);
      text-align: center;
-     background-color: rgb(37, 37, 37);
+     background-color: var(--secondry-color);
      position: absolute;
      top: 20%;
      width: 450px;
@@ -236,13 +418,13 @@
 
 #use,
 #pas {
-     color: var(--primary-color);
+     color: var(--secondry-color);
      border: 1px solid grey;
      margin: 4px 10px;
      width: 70%;
      padding: 9px 5px;
      font-size: 1rem;
-     background-color: #060606;
+     background-color: var(--primary-color);
 }
 
 #checkbox {
@@ -265,5 +447,13 @@
      color: var(--primary-color);
 }
 
+.sugge {
+     display: flex;
+     justify-content: space-between;
+     color: var(--primary-color);
+     width: 57%;
+     font-size: 1.1rem;
+     margin: 1rem 0rem 1rem 2.5em;
+}
 
 /* <!-- ------------------switch-------------------> */

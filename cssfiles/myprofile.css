@@ -1,0 +1,228 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+
+:root {
+     --primary-color: #ffffff;
+     --secondry-color: #000000;
+     --third-color: #242323;
+}
+
+.dark-theme {
+     --primary-color: #000000;
+     --secondry-color: #ffffff;
+     --third-color: #ffffff;
+}
+
+#mainbox {
+     display: flex;
+}
+
+
+/* --------------------------------------navbar------------------------------------------- */
+
+
+#navbar {
+     border-right: 1px solid #ffffff28;
+     height: 100vh;
+     padding-right: 3rem;
+     background-color: var(--secondry-color);
+     position: fixed;
+     overflow-y: hidden;
+}
+
+#navbar h1 {
+     text-align: center;
+     color: var(--primary-color);
+     margin: 2rem auto 3.5rem auto;
+}
+
+#navbar h2 {
+     display: none;
+}
+
+
+#navbar ul li {
+     margin: 39px 10px;
+     list-style: none;
+     padding-right: 3rem;
+}
+
+#navbar ul li a {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 18px;
+     font-weight: bold;
+     text-decoration: none;
+     color: var(--primary-color);
+}
+
+
+/* --------------------------------------navbar------------------------------------------- */
+
+
+/* --------------------------------------nav2--------------------------------------------- */
+
+#nav2 li {
+     margin-left: 26px;
+     list-style: none;
+     margin-top: 8.5em;
+}
+
+#nav2 ul ol {
+     padding: 10px;
+     list-style: none;
+}
+
+#nav2 ul ol a {
+     color: var(--primary-color);
+     text-decoration: none;
+}
+
+#nav2 li a {
+     color: var(--primary-color);
+     font-size: 1.5rem;
+     text-decoration: none;
+}
+
+.fa-bars {
+     margin-right: 1rem;
+     font-size: 1.5rem;
+}
+
+#nav2ul {
+     z-index: 10;
+     display: block;
+     top: 23rem;
+     background-color: var(--secondry-color);
+     position: absolute;
+     left: .7rem;
+     box-shadow: 2px 2px 10px var(--primary-color);
+     width: 250px;
+     border-radius: 5px;
+}
+
+#nav2ul ol a {
+     display: flex;
+     font-size: 1.1rem;
+     margin: 2px 0;
+     font-family: system-ui;
+     color: var(--primary-color);
+     justify-content: space-between;
+}
+.fa-square-plus,
+.fa-heart,
+.fa-facebook-messenger,
+.fa-clapperboard,
+.fa-compass,
+.fa-magnifying-glass,
+.fa-house,
+.fa-instagram {
+     font-size: 1.3rem;
+     color: var(--primary-color);
+     margin: 0 18px;
+}
+.fa-bug,
+.fa-clock,
+.fa-moon,
+.fa-bookmark,
+.fa-gear {
+     font-size: 1.3rem;
+     margin-right: 10px;
+}
+
+
+/* --------------------------------------nav2---------------------------------------- */
+
+
+/* --------------------------------------main---------------------------------------- */
+
+
+#main{
+     height: 10000px;
+     background-color: var(--secondry-color);
+     width: 100%;
+}
+#mainchild{
+     display: block;
+     width: 50%;
+     margin: 0 auto;
+     background-color: var(--secondry-color);
+     border: 2px solid red;
+}
+.profilechild{
+     width: 75%;
+     margin: 2rem auto;
+     display: flex;
+     justify-content: space-between;
+}
+.profileimage img{
+     width: 190px;
+     height: 190px;
+     object-fit: cover;
+     border-radius: 50%;
+}
+.profiledetails{
+     margin: 10px 0;
+     display: block;
+}
+.profiledetailschild1{
+     color: var(--primary-color);
+     display: flex;
+}
+
+.profiledetailschild1 h1{
+     color: var(--primary-color);
+     display: flex;
+     font-weight: 500;
+     margin: 10px 15px;
+     font-size: 1.7rem;
+}
+
+.profiledetailschild1 button{
+     margin-top: 6px;
+     height: 37px;
+     background-color: var(--primary-color);
+     color: var(--secondry-color);
+     padding: 10px 16px 18px 16px;
+     font-size: 1rem;
+     font-weight: 500;
+     border-radius: 10px;
+}
+.profiledetailschild1 .fa-gear{
+     font-size: 1.8rem;
+     margin: 10px;
+}
+
+
+.profiledetailschild2{
+     color: var(--primary-color);
+     display: flex;
+     margin: 1rem 0;
+     justify-content: space-around;
+    
+}
+.profiledetailschild2 ul{
+     margin: 0 9px;
+     font-size: 1.3rem;
+     font-weight: 500;
+}
+.profiledetailschild3{
+     margin-left: 15px;
+     color: var(--primary-color);
+display: block;
+}
+.profiledetailschild3 h1{
+     color: var(--primary-color);
+display: block;
+font-size: 16px;
+font-family: system-ui;
+}
+.profiledetailschild3 p{
+     color: var(--primary-color);
+display: block;
+font-size: 16px;
+font-family: system-ui;
+}

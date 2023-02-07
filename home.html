@@ -16,6 +16,7 @@
      <div id="mainbox">
           <div id="navbar">
                <h1>Instagram</h1>
+               <h2><i class="fa-brands fa-instagram"></i></h2>
                <ul>
                     <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span> </a></li>
                     <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>Search</span> </a></li>
@@ -36,7 +37,7 @@
                          <ol><a href="#">Switch Acoount</a></ol>
                          <ol><a href="#">Log Out</a></ol>
                     </ul>
-                    <li><a href="#" onclick="menutoggle()"><i class="fa-solid fa-bars"></i>More</a></li>
+                    <li><a href="#" onclick="menutoggle()"><i class="fa-solid fa-bars"></i><span>More</span></a></li>
                </div>
 
           </div>
@@ -68,24 +69,151 @@
                          <p>kapil</p>
                     </div>
                </div>
+               <div id="cards">
+                    <div class="card">
+                         <div class="card-heading">
+                              <img src="/image/dp1.jpeg" alt="">
+                              <div class="cardusername">
+                                   <h2>username1</h2>
+                                   <h3>place....</h3>
+                              </div>
+                              <div class="card-heading-option">
+                                   <h1 onclick="moreoptionincard()">...</h1>
+                              </div>
+                         </div>
+                         <div id="moreopt">
+                              <div class="moreopt">
+                                   <ul><a href="#">Report</a></ul>
+                                   <hr>
+                                   <ul><a href="#">Unfollow</a></ul>
+                                   <hr>
+                                   <ul><a href="#">Add to Favorites</a></ul>
+                                   <hr>
+                                   <ul><a href="#">Go to post</a></ul>
+                                   <hr>
+                                   <ul><a href="#">Share to...</a></ul>
+                                   <hr>
+                                   <ul><a href="#">Copy Link</a></ul>
+                                   <hr>
+                                   <ul><a href="#">Embed</a></ul>
+                                   <hr>
+                                   <ul><a href="#">About this account</a></ul>
+                                   <hr>
+                                   <ul onclick="cancelmoreopt()"><a href="#">Cancel</a></ul>
+                              </div>
+
+                         </div>
+
+                         <div class="card-img">
+                              <img src="image/dp1.jpeg" alt="">
+                         </div>
+
+                         <div class="card-likes">
+                              <i onclick="like()" class="fa-regular fa-heart"></i>
+                              <i class="fa-regular fa-comment"></i>
+                              <i class="fa-solid fa-share"></i>
+                              <i id="bookmark" class="fa-regular fa-bookmark"></i>
+
+                         </div>
+
+                         <div class="card-footer">
+                              <span>liked by username and</span><span id="count"> </span>
+                              <div><input type="text" name="comment" id="comment" placeholder="Add a comment..."></div>
+
+
+                         </div>
+                    </div>
+               </div>
           </div>
           <div id="main2">
                <div id="profile">
                     <div class="pro">
                          <img src="image/dp4.jpeg" alt="">
                          <div>
-                              <h3>_jadaun_sahab__</h3>
+                              <h3>jadaun_sahab__</h3>
                               <p>vikas jadaun</p>
                          </div>
                     </div>
                     <h4 onclick="switchopen()">Switch</h4>
                </div>
+               <div class="sugge">
+                    <p>Suggestions for you</p>
+                    <p>See All</p>
+               </div>
+               <!-- -------------------------------sugestions------------------------------- -->
+               <div id="suggestionsprofile">
+                    <div class="pro">
+                         <img src="image/dp3.jpeg" alt="">
+                         <div>
+                              <h3>_nrupuu_masai_</h3>
+                              <p>nrupul dev</p>
+                         </div>
+                    </div>
+                    <h4 onclick="switchopen()">Follow</h4>
+               </div>
+               <div id="suggestionsprofile">
+                    <div class="pro">
+                         <img src="image/dp2.jpeg" alt="">
+                         <div>
+                              <h3>ankush_dsa_teacher</h3>
+                              <p>ankush chimnani</p>
+                         </div>
+                    </div>
+                    <h4 onclick="switchopen()">Follow</h4>
+               </div>
+               <div id="suggestionsprofile">
+                    <div class="pro">
+                         <img src="image/dp1.jpeg" alt="">
+                         <div>
+                              <h3>_offcial_hritik_star</h3>
+                              <p>hritik rohan</p>
+                         </div>
+                    </div>
+                    <h4 onclick="switchopen()">Follow</h4>
+               </div>
+               <div id="suggestionsprofile">
+                    <div class="pro">
+                         <img src="image/dp4.jpeg" alt="">
+                         <div>
+                              <h3>sakshi</h3>
+                              <p>km sakshi</p>
+                         </div>
+                    </div>
+                    <h4 onclick="switchopen()">Follow</h4>
+               </div>
+               <div id="suggestionsprofile">
+                    <div class="pro">
+                         <img src="image/dp5.jpeg" alt="">
+                         <div>
+                              <h3>carzy_surya</h3>
+                              <p>surya chauhan</p>
+                         </div>
+                    </div>
+                    <h4 onclick="switchopen()">Follow</h4>
+               </div>
+               <div id="profilefooter">
+                    <li><a href="#">About </a></li>
+                    <li><a href="#"> . Help </a></li>
+                    <li><a href="#"> . Press </a></li>
+                    <li><a href="#"> . Api </a></li>
+                    <li><a href="#"> . Jobs </a></li>
+                    <li><a href="#"> . Privacy </a></li>
+                    <li><a href="#"> . Terms </a></li>
+                    <li><a href="#"> . Locations .</a></li>
+               </div>
+               <div id="profilefooter">
+                    <li><a href="#">Language</a></li>
+               </div>
+               <div id="profilefooter">
+                    <ul><a href="#">© 2023 INSTAGRAM FROM META</a></ul>
+               </div>
+                <!-- -------------------------------sugestions------------------------------- -->
           </div>
      </div>
      <!-- ------------------switch------------------->
      <div id="switch">
           <div class="switch">
-               <span onclick="switchremove()">X</span>
+               <span onclick="switchremove()"><i class="fa-solid fa-x"></i></span>
                <h1>Instagram</h1>
                <div><input type="text" name="" id="use" placeholder="phone number, username or email"></div>
                <div><input type="text" name="" id="pas" placeholder="Paasword"></div>
@@ -96,7 +224,9 @@
           </div>
      </div>
      <!-- ------------------switch------------------->
+
+
 </body>
-<script src="/jsfiles/index.js"></script>
+<script src="/jsfiles/home.js"></script>
 
 </html>
