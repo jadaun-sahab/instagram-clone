@@ -44,9 +44,8 @@
      display: none;
 }
 
-
 #navbar ul li {
-     margin: 39px 10px;
+     margin: 29px 10px;
      list-style: none;
      padding-right: 3rem;
 }
@@ -54,7 +53,7 @@
 #navbar ul li a {
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      font-size: 18px;
-     font-weight: bold;
+     font-weight: 400;
      text-decoration: none;
      color: var(--primary-color);
 }
@@ -68,7 +67,7 @@
 #nav2 li {
      margin-left: 26px;
      list-style: none;
-     margin-top: 8.5em;
+     margin-top: 3.8em;
 }
 
 #nav2 ul ol {
@@ -95,7 +94,7 @@
 #nav2ul {
      z-index: 10;
      display: block;
-     top: 23rem;
+     top: 14rem;
      background-color: var(--secondry-color);
      position: absolute;
      left: .7rem;
@@ -112,6 +111,7 @@
      color: var(--primary-color);
      justify-content: space-between;
 }
+
 .fa-square-plus,
 .fa-heart,
 .fa-facebook-messenger,
@@ -124,6 +124,7 @@
      color: var(--primary-color);
      margin: 0 18px;
 }
+
 .fa-bug,
 .fa-clock,
 .fa-moon,
@@ -140,40 +141,48 @@
 /* --------------------------------------main---------------------------------------- */
 
 
-#main{
-     height: 10000px;
+#main {
+     height: 1000px;
      background-color: var(--secondry-color);
      width: 100%;
 }
-#mainchild{
+
+#mainchild {
      display: block;
-     width: 50%;
-     margin: 0 auto;
+     width: 60%;
+     margin-left: 29em;
      background-color: var(--secondry-color);
-     border: 2px solid red;
+     border-bottom: 1px solid var(--third-color);
 }
-.profilechild{
-     width: 75%;
-     margin: 2rem auto;
+
+/* -------------------------------------profilesection----------------------------------- */
+
+
+.profilechild {
+     width: 70%;
+     margin: 2rem auto 2rem 5rem;
      display: flex;
      justify-content: space-between;
 }
-.profileimage img{
-     width: 190px;
-     height: 190px;
+
+.profileimage img {
+     width: 180px;
+     height: 180px;
      object-fit: cover;
      border-radius: 50%;
 }
-.profiledetails{
-     margin: 10px 0;
+
+.profiledetails {
+     margin: 10px 0 10px 0;
      display: block;
 }
-.profiledetailschild1{
+
+.profiledetailschild1 {
      color: var(--primary-color);
      display: flex;
 }
 
-.profiledetailschild1 h1{
+.profiledetailschild1 h1 {
      color: var(--primary-color);
      display: flex;
      font-weight: 500;
@@ -181,7 +190,7 @@
      font-size: 1.7rem;
 }
 
-.profiledetailschild1 button{
+.profiledetailschild1 button {
      margin-top: 6px;
      height: 37px;
      background-color: var(--primary-color);
@@ -191,38 +200,150 @@
      font-weight: 500;
      border-radius: 10px;
 }
-.profiledetailschild1 .fa-gear{
+
+.profiledetailschild1 .fa-gear {
      font-size: 1.8rem;
      margin: 10px;
 }
 
 
-.profiledetailschild2{
+.profiledetailschild2 {
      color: var(--primary-color);
      display: flex;
      margin: 1rem 0;
      justify-content: space-around;
-    
+
 }
-.profiledetailschild2 ul{
+
+.profiledetailschild2 ul {
      margin: 0 9px;
      font-size: 1.3rem;
      font-weight: 500;
 }
-.profiledetailschild3{
+
+.profiledetailschild3 {
      margin-left: 15px;
      color: var(--primary-color);
-display: block;
+     display: block;
 }
-.profiledetailschild3 h1{
+
+.profiledetailschild3 h1 {
      color: var(--primary-color);
-display: block;
-font-size: 16px;
-font-family: system-ui;
+     display: block;
+     font-size: 16px;
+     font-family: system-ui;
 }
-.profiledetailschild3 p{
+
+.profiledetailschild3 p {
      color: var(--primary-color);
-display: block;
-font-size: 16px;
-font-family: system-ui;
+     display: block;
+     font-size: 16px;
+     font-family: system-ui;
 }
+
+
+/* -------------------------------------profilesection----------------------------------- */
+
+
+
+
+/* -------------------------------------------changeimage section------------------------------------------- */
+
+
+
+.changeimage {
+     display: flex;
+     width: 40%;
+     margin: 0 auto;
+}
+
+.changeimage .fa-bookmark,
+.fa-table-cells,
+.fa-user {
+     font-size: 15px;
+     margin: 0 10px;
+}
+
+.changeimage h5 {
+     border-top: 1px solid var(--primary-color);
+     padding-top: 19px;
+     padding-bottom: 10px;
+     font-size: 1rem;
+     font-weight: 400;
+     color: var(--primary-color);
+     margin: 0px 10px;
+     color: rgb(194, 193, 193);
+}
+.changeimage h5:active{
+color: var(--primary-color);
+}
+
+
+/* -------------------------------------------changeimage section------------------------------------------- */
+
+
+
+
+/* -------------------------------------------img section------------------------------------------- */
+
+.imagechild {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 8px;
+     margin-bottom: 4rem;
+}
+
+.imagechild img {
+     object-fit: fill;
+     margin: 2rem 0;
+     width: 100%;
+     height: 100%;
+}
+
+
+
+/* -------------------------------------------img section------------------------------------------- */
+
+
+
+/* --------------------------------------------moreoption-------------------------------------------- */
+
+
+#moreopt {
+     width: 100%;
+     z-index: 9;
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     background-color: #00000092;
+}
+
+.moreopt {
+     top: 10%;
+     border-radius: 10px;
+     left: 37%;
+     width: 27%;
+     position: absolute;
+     text-align: center;
+     background-color: var(--third-color);
+}
+
+hr {
+     border: 1px solid rgb(47, 46, 46);
+}
+
+.moreopt ul {
+     padding: 1rem 40px;
+}
+
+.moreopt ul a {
+     font-family: system-ui;
+     font-size: 1rem;
+     font-weight: 400;
+     text-decoration: none;
+     color: var(--primary-color);
+}
+
+
+/* --------------------------------------------moreoption-------------------------------------------- */

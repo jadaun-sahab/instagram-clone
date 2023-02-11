@@ -1,23 +1,27 @@
-*{
+* {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
      scroll-behavior: smooth;
 }
-#signup{
+
+#signup {
      margin: 2rem auto;
      display: block;
      width: 50%;
 }
-.signup{
+
+.signup {
      display: flex;
 }
-#signupchild1{
+
+#signupchild1 {
      width: 80%;
      display: flex;
      margin: 5em auto 0 auto;
 }
-#image{
+
+#image {
      height: 700px;
      background-color: rgb(0, 0, 0);
      width: 80%;
@@ -25,10 +29,12 @@
      margin: 0 auto;
      border-radius: 30px;
 }
-#signupmain{
+
+#signupmain {
      display: block;
 }
-#signupchild2{
+
+#signupchild2 {
      height: 700px;
      text-align: center;
      width: 96%;
@@ -36,45 +42,60 @@
      display: block;
      border: 1px solid rgb(226, 225, 225);
 }
-#signupchild3{
-     padding: 10px auto;
+
+#signupchild3 {
+     width: 80%;
+     margin: 10px auto;
+     padding: 10px 0;
      border: 1px solid rgb(226, 225, 225);
 }
-#signupchild3 h3{
-     padding: 10px auto;
+
+#signupchild3 h3 {
      text-align: center;
-    font-weight: 400;
+     font-weight: 400;
 }
-#signupchild3 h3 a{
+
+#signupchild3 h3 a {
+     padding: 20px 0;
+     margin: 10px;
      color: rgb(75, 190, 236);
-   text-decoration: none;
+     text-decoration: none;
 }
-#signupchild4{
+
+#signupchild4 {
      display: block;
      text-align: center;
 }
-.signupchild4{
-     width: 60%;
+#signupchild4 h4{
+     margin: 10px;
+}
+
+.signupchild4 {
+     width: 70%;
      margin: 0 auto;
      display: flex;
 }
-.signupchild4 img{
+
+.signupchild4 img {
      margin: 0 5px;
      width: 135px;
 }
-#signupchild2 h1{
+
+#signupchild2 h1 {
      font-size: 3rem;
      font-family: cursive;
 }
-#signupchild2 p{
-     font-family: system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    color: rgb(122, 120, 120);
-    font-size: 1.2rem;
+
+#signupchild2 p {
+     font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+     width: 70%;
+     text-align: center;
+     margin: 0 auto;
+     color: rgb(122, 120, 120);
+     font-size: 1.2rem;
 }
-.btn1{
+
+.btn1 {
      border-radius: 10px;
      font-size: 1.3rem;
      color: white;
@@ -85,13 +106,15 @@
      display: block;
      background-color: rgb(60, 137, 224);
 }
-.fa-square-facebook{
+
+.fa-square-facebook {
      font-size: 1.2rem;
      margin: 5px;
      color: white;
      background-color: rgba(255, 255, 255, 0);
 }
-form input{
+
+form input {
      padding: 13px 10px;
      margin: 5px auto;
      border-radius: 5px;
@@ -99,22 +122,27 @@ form input{
      background-color: rgba(244, 243, 243, 0.611);
      width: 80%;
 }
-#p2 p{
+
+#p2 p {
      font-size: 14px;
      width: 80%;
      margin: 10px auto;
 }
-#p3 p{
+
+#p3 p {
      font-size: 14px;
-     width:80%;
+     width: 80%;
      margin: 10px auto;
 }
-#p2 p a{
-    text-decoration: none;
-}
-#p3 p a{
+
+#p2 p a {
      text-decoration: none;
 }
+
+#p3 p a {
+     text-decoration: none;
+}
+
 .signupbtn {
      background-color: rgb(65, 178, 226);
      color: white;
@@ -126,23 +154,27 @@ form input{
      border-radius: 10px;
      font-weight: bold;
      font-style: 17rem;
+     text-decoration: none;
 }
 
-#foot{
+
+#foot {
      display: flex;
      width: 55%;
      margin: 0 auto;
 }
-#foot2 p{
+
+#foot2 p {
      color: grey;
      font-weight: 400;
      text-align: center;
 }
 
-#foot li{
-list-style: none;
+#foot li {
+     list-style: none;
 }
-#foot li a{
+
+#foot li a {
      font-size: .9rem;
      color: grey;
      font-weight: 400;

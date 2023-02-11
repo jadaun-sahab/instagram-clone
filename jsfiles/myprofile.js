@@ -16,3 +16,28 @@ function menutoggle() {
 }
 // -------------------------for more option in navbar-------------------------
 
+
+var cancelopt = document.getElementById("moreopt");
+          
+cancelopt.style.display = "none"; 
+
+function cancelmoreopt(){
+  if (cancelopt.style.display == "none")
+  cancelopt.style.display = "block";
+ else {
+   cancelopt.style.display = "none";
+ }
+}
+
+var moreoption = document.getElementById("moreopt");
+          
+moreoption.style.display = "none"; 
+
+function moreoptionincard(){
+  if (moreoption.style.display == "none")
+  moreoption.style.display = "block";
+ else {
+   moreoption.style.display = "none";
+ }
+}
+

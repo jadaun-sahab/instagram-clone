@@ -81,17 +81,18 @@ function moreoptionincard(){
 
 // -----------------------like--------------------------
 
-let likescount=document.getElementById("count").innerText
-
-let count=0;
-
-function like(){
-     count++;
+let count
+if (localStorage.getItem("postlikes") == null) {
+    count = 0;
 }
-likescount=count;
-
-
-document.getElementById("comment")
+else {
+    count = localStorage.getItem("postlikes");
+}
+function likes() {
+    let x = count++;
+    localStorage.setItem("postlikes", count);
+    document.querySelector("button").innerText = x
+}
 // -----------------------like--------------------------
 
 

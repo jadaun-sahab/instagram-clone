@@ -1,0 +1,156 @@
+@media (max-width:1250px) {
+     #navbar {
+          padding: 0;
+     }
+     #navbar h1 {
+          display: none;
+     }
+
+     #navbar h2 {
+          margin: 10px;
+          display: block;
+     }
+     #navbar ul li a span {
+          display: none;
+     }
+
+     #navbar ul li {
+          padding: 0;
+     }
+
+     #nav2 li a span {
+          display: none;
+     }
+
+}
+
+@media (max-width:750px) {
+     #navbar {
+          width: 100%;
+          border-right: 1px solid #ffffff28;
+          padding: 0;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          height: 70px;
+          display: flex;
+     }
+     #navbar h2 {
+          margin: 0;
+          padding: 0;
+     }
+
+     #navbar h2 i {
+          display: none;
+     }
+
+
+     #navbar ul {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-evenly;
+          width: 90%;
+     }
+
+     #navbar ul li {
+
+          margin: 20px 0;
+     }
+
+
+     /* navb222 */
+     #nav2 {
+          display: flex;
+     }
+
+     #nav2 li {
+          margin-left: 0;
+          list-style: none;
+          margin-top: 0em;
+     }
+
+
+
+     #nav2 li a {
+          color: var(--primary-color);
+          font-size: 1.5rem;
+          text-decoration: none;
+     }
+
+     .fa-bars {
+          margin-left: 1rem;
+          font-size: 1.6rem;
+          margin-top: 1.2rem;
+     }
+
+     #nav2ul {
+          position: fixed;
+          top: 10%;
+          left: 30%;
+          height: 350px;
+          z-index: 9;
+          display: flex;
+     }
+
+     #nav2 ul {
+          width: 40%;
+     }
+
+     #nav2ul ol a {
+          display: flex;
+          font-size: 1.1rem;
+          margin: 2px 0;
+          font-family: system-ui;
+          color: var(--primary-color);
+          justify-content: space-between;
+     }
+
+}
+
+@media (max-width:550px) {
+     #nav2ul {
+          left: 20%;
+     }
+
+     #nav2 ul {
+          width: 60%;
+     }
+     hr{
+          display: none;
+     }
+}
+
+@media (max-width:400px) {
+     #nav2ul {
+          left: 10%;
+     }
+     #nav2 ul {
+          width: 70%;
+     }
+     #navbar ul {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-evenly;
+     }
+}
+@media (max-width:330px) {
+     .fa-square-plus,
+     .fa-heart,
+     .fa-facebook-messenger,
+     .fa-clapperboard,
+     .fa-compass,
+     .fa-magnifying-glass,
+     .fa-house,
+     .fa-instagram {
+          font-size: 1rem;
+          color: var(--primary-color);
+          margin: 0 5px;
+     }
+     .fa-bars{
+          margin-top: 1.3rem;
+          margin-left: 0px;
+          font-size: 1.4rem;
+     }
+}

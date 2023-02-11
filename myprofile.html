@@ -7,8 +7,9 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>vikasjadaun</title>
      <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
-     <link rel="stylesheet" href="/cssfiles/myprofile.css">
-     <link rel="stylesheet" href="/cssfiles/responsive.css">
+     <link rel="stylesheet" href="./cssfiles/myprofile.css">
+     <link rel="stylesheet" href="./cssfiles/navbarrespon.css">
+     <link rel="stylesheet" href="./cssfiles/responsive.css">
 </head>
 
 <body>
@@ -17,14 +18,14 @@
                <h1>Instagram</h1>
                <h2><i class="fa-brands fa-instagram"></i></h2>
                <ul>
-                    <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span> </a></li>
-                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>Search</span> </a></li>
+                    <li><a href="/home.html"><i class="fa-solid fa-house"></i><span>Home</span> </a></li>
+                    <li id="fa-magnifying-glass"><a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>Search</span> </a></li>
                     <li><a href="#"><i class="fa-solid fa-compass"></i><span>Explore</span> </a></li>
                     <li><a href="#"><i class="fa-solid fa-clapperboard"></i><span>Reels</span> </a></li>
                     <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i><span>Messages</span></a></li>
-                    <li><a href="#"><i class="fa-regular fa-heart"></i><span>Notification</span></a></li>
+                    <li id="fa-heart"><a href="#"><i class="fa-regular fa-heart"></i><span>Notification</span></a></li>
                     <li><a href="#"><i class="fa-regular fa-square-plus"></i><span>Create</span></a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i><span>Profile</span></a></li>
+                    <li id="fa-instagram"><a href="/myprofile.html"><i class="fa-brands fa-instagram"></i><span>Profile</span></a></li>
                </ul>
                <div id="nav2">
                     <ul id="nav2ul">
@@ -53,7 +54,7 @@
                                    <h2 onclick="moreoptionincard()"><i class="fa-solid fa-gear"></i></h2>
                               </div>
                               <div class="profiledetailschild2">
-                                   <ul>2 posts</ul>
+                                   <ul>3 posts</ul>
                                    <ul>29 followers</ul>
                                    <ul>46 following</ul>
                               </div>
@@ -64,7 +65,44 @@
                          </div>
 
                     </div>
+                    <hr>
+                    <div class="changeimage">
+                         <h5><i class="fa-solid fa-table-cells"></i>POSTS</h5>
+                         <h5><i class="fa-regular fa-bookmark"></i>SAVED</h5>
+                         <h5><i class="fa-regular fa-user"></i>TAGGED</h5>
+                    </div>
+                    <div class="imagechild">
+                         <img src="/image/profileimg1.jpeg" alt="">
+                         <img src="/image/profileimg2.jpeg" alt="">
+                         <img src="/image/profileimg3.jpeg" alt="">
+                    </div>
                </div>
+          </div>
+          <div id="moreopt">
+               <div class="moreopt">
+                    <ul><a href="#">Change password</a></ul>
+                    <hr>
+                    <ul><a href="#">QR Code</a></ul>
+                    <hr>
+                    <ul><a href="#">Apps and Websie</a></ul>
+                    <hr>
+                    <ul><a href="#">Notifications</a></ul>
+                    <hr>
+                    <ul><a href="#">Privacy and Security</a></ul>
+                    <hr>
+                    <ul><a href="#">Supervision</a></ul>
+                    <hr>
+                    <ul><a href="#">Login activity</a></ul>
+                    <hr>
+                    <ul><a href="#">Emails For instagram</a></ul>
+                    <hr>
+                    <ul><a href="#">Report a Problem</a></ul>
+                    <hr>
+                    <ul><a href="#">Log Out</a></ul>
+                    <hr>
+                    <ul onclick="cancelmoreopt()"><a href="#">Cancel</a></ul>
+               </div>
+
           </div>
 
 </body>
