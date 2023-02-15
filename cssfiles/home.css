@@ -46,6 +46,7 @@
      padding-right: 3rem;
 }
 
+
 #navbar ul li a {
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      font-size: 18px;
@@ -163,6 +164,7 @@
 .card {
      display: block;
 }
+
 
 .card-heading {
      margin: 36px 0 16px 0;

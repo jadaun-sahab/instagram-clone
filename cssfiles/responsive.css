@@ -41,6 +41,10 @@
           height: 80%;
      }
 
+     #explore {
+          width: 85%;
+          margin-left: 5em;
+     }
 
 }
 
@@ -70,9 +74,26 @@
           left: 30%;
           width: 40%;
      }
+
+     .explore {
+          display: grid;
+          gap: 10px;
+          grid-template-columns: repeat(2, 1fr);
+     }
 }
 
 @media (max-width:750px) {
+     #cards {
+          width: 90%;
+          margin-left: 29em;
+     }
+
+     .card-heading {
+          margin: 36px auto 16px auto;
+          width: 75%;
+          display: flex;
+     }
+
      #main {
           padding: 0;
      }
@@ -115,6 +136,7 @@
      .changeimage {
           width: 80%;
      }
+
      .card-likes {
           width: 350px;
      }
@@ -156,7 +178,8 @@
           margin: 10px auto;
           font-size: 1.3rem;
      }
-     .profileimage{
+
+     .profileimage {
           width: 5%;
           margin: 0 auto;
      }
@@ -182,56 +205,86 @@
           font-size: 1rem;
           font-weight: 500;
      }
+
      .moreopt {
           top: 10%;
           left: 25%;
           width: 50%;
      }
+
      #main {
           height: 100%;
           background-color: var(--secondry-color);
           width: 100%;
      }
-    
 
+     #explore {
+          width: 95%;
+          margin-left: 1em;
+     }
+
+
+}
+@media (max-width:650px){
+     .card-heading {
+          margin: 36px auto 16px auto;
+          width: 90%;
+          display: flex;
+     }
 }
 
 @media (max-width:550px) {
+     .explore {
+          display: grid;
+          gap: 10px;
+          grid-template-columns: repeat(1, 1fr);
+     }
+
+     #explore {
+          width: 95%;
+          margin-left: 5px;
+     }
+
      #cards {
           margin: 0 auto;
           width: 90%;
      }
+
      .changeimage {
           width: 95%;
      }
+
      .profiledetailschild1 h1 {
           width: 30%;
           font-weight: 500;
           margin: 10px auto;
           font-size: 1.3rem;
      }
-     .profileimage{
+
+     .profileimage {
           width: 30%;
           margin: 0 auto;
      }
+
      .profiledetailschild1 button {
           width: 34%;
           display: block;
           margin: 6px auto 0 auto;
      }
-     
+
      .profilechild {
           width: 90%;
           display: block;
      }
+
      #story {
-          margin-bottom: 1rem;
-          margin-left: 0px;
+          width: 95%;
+          margin: 0 auto 1rem auto;
      }
 
      .story {
-          width: 50px;
-          margin: 10px;
+          width: 100%;
+          margin: 10px ;
      }
 
      .card {
@@ -272,47 +325,82 @@
      #fa-instagram {
           display: none;
      }
+
      .moreopt {
           left: 20%;
           width: 60%;
      }
+
+     .explore img:active {
+          width: 90%;
+          height: 60%;
+          top: 5%;
+          left: 2%;
+     }
+
 }
 
-@media (max-width:430px) { 
-     .story{
+@media (max-width:430px) {
+     .explore img:active {
+          width: 90%;
+          height: 50%;
+          top: 20%;
+          left: 1%;
+     }
+
+     .story {
           width: 45px;
           margin: 10px;
      }
+
      .story img {
           width: 45px;
           height: 45px;
      }
+
      .moreopt {
           top: 10%;
           left: 10%;
           width: 75%;
      }
-     .profileimage{
+
+     .profileimage {
           width: 40%;
           margin: 0 auto;
      }
-     .profiledetailschild1  h1{
+
+     .profiledetailschild1 h1 {
           width: 40%;
      }
+
      .profiledetailschild1 button {
           width: 60%;
      }
 }
+
 @media (max-width:350px) {
-     .profileimage{
+     .explore {
+          display: grid;
+          gap: 4px;
+          grid-template-columns: repeat(1, 1fr);
+     }
+
+     #explore {
+          width: 96%;
+          margin-left: 1px;
+     }
+
+     .profileimage {
           width: 60%;
      }
-     .profiledetailschild1  h1{
+
+     .profiledetailschild1 h1 {
           width: 50%;
      }
-     .story{
+
+     .story {
           width: 45px;
           margin: 7px;
      }
-   
+
 }

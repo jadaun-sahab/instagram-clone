@@ -115,3 +115,18 @@ function cancelmoreopt(){
 
 
 // -----------------------moreopt--------------------------
+
+let followbtnchange=document.getElementById("followbtnname");
+let follow=0;
+function followbtn(){
+if(follow==0){
+  follow=1;
+  console.log(follow)
+  followbtnchange.innerText="Following";
+  followbtnchange.style.color="white";
+}
+else if(follow==1) {
+  follow=0;
+  followbtnchange.innerText="Follow";
+}
+}
